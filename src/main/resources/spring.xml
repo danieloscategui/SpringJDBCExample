@@ -7,7 +7,7 @@
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
 
-	<bean id="employeeDAOJDBCTemplate" class="pe.dospe.spring.jdbc.dao.EmloyeeDAOJDBCTemplateImpl">
+	<bean id="employeeDAOJDBCTemplate" class="pe.dospe.spring.jdbc.dao.EmployeeDAOJDBCTemplateImpl">
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
 	
